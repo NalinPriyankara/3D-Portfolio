@@ -27,6 +27,12 @@ import starbucks from "./company/starbucks.png";
 import epic from "./company/epic.png";
 
 import carrent from "./carrent.png";
+import gamestore from "./gamestore.png";
+import gemini from "./gemini.png";
+import game from "./game1.png";
+import metaversus from "./metaversus.png";
+import sportscar from "./sportscar.png";
+import weatherapp from "./weatherapp.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -57,6 +63,12 @@ export {
   starbucks,
   epic,
   carrent,
+  gamestore,
+  gemini,
+  game,
+  metaversus,
+  sportscar,
+  weatherapp,
   jobit,
   tripguide,
 };

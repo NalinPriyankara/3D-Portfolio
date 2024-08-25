@@ -20,6 +20,12 @@ import {
     epic,
     shopify,
     carrent,
+    gamestore,
+    gemini,
+    game,
+    metaversus,
+    sportscar,
+    weatherapp,
     jobit,
     tripguide,
     threejs,
@@ -202,16 +208,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Game Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A seamless platform for game enthusiasts to explore and purchase their favorite titles for a better price. From the latest AAA titles to indie gems, we have something for every type of gamer.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
@@ -219,41 +225,104 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: gamestore,
+      source_code_link: "https://github.com/NalinPriyankara/GameStore",
     },
     {
-      name: "Job IT",
+      name: "Gemini Clone",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A fully functional Gemini clone that help quickly make sense of large amounts of information and seamlessly generate first drafts and provide faster service to customers and make greater use.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "geminiapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "vite",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gemini,
+      source_code_link: "https://github.com/NalinPriyankara/Gemini-Clone",
     },
     {
-      name: "Trip Guide",
+      name: "Escape 2D",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Jump, dash, and explore vibrant worlds in 'Escape', a captivating 2D platformer crafted with the Unity engine. Navigate challenging levels filled with unique enemies, hidden secrets, and tricky obstacles.",
       tags: [
         {
-          name: "nextjs",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "shaderlab",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: game,
+      source_code_link: "https://github.com/NalinPriyankara/GameProject",
+    },
+    {
+      name: "Metaversus",
+      description:
+        "This Modern next 13 website features a sleek and engaging user experience. The site showcases soothing animations that enhance user interaction and overall aesthetics, truly bringing the concept to life.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "metaverse",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaversus,
+      source_code_link: "https://github.com/NalinPriyankara/Metaversus",
+    },
+    {
+      name: "Sportscar Store",
+      description:
+        "Discover the thrill of owning a luxury sportscars. Our carefully curated selection features the latest models from top manufacturers, offering unparalleled performance, style, and sophistication.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sportscar,
+      source_code_link: "https://github.com/NalinPriyankara/sportscarWebsite",
+    },
+    {
+      name: "Weather App",
+      description:
+        "Get real-time weather updates, accurate forecasts, and personalized alerts. Whether you're planning your day or tracking severe weather, provides you with the information you need to stay prepared.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "api",
           color: "green-text-gradient",
         },
         {
@@ -261,8 +330,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/NalinPriyankara/WeatherApp",
     },
   ];
   
