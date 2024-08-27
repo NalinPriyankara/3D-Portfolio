@@ -17,11 +17,43 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
+    const { name, value} = e.target;
 
+    setForm({ ...form, [name]: value });
   }
 
   const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
+    emailjs.send(
+      'service_ry8k9x7',
+      'template_ogsioob',
+      {
+        from_name: form.name,
+        to_name: 'Nalin',
+        from_email: form.email,
+        to_email: 'nalinpriyankara033@gmail.com',
+        message: form.message,
+      },
+      'RAB7jDm0_V4GfnEDW'
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Thank you for your response.');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+
+      alert('Something went wrong!');
+    })
   }
 
   return (
@@ -63,9 +95,9 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows='7'
+              rows={7}
               name='message'
-              value={form.mesage}
+              value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'

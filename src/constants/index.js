@@ -115,10 +115,6 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
-    },
-    {
       name: "epic",
       icon: epic,
     }
@@ -182,7 +178,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "The design is visually stunning and intuitive, making the user experience seamless and enjoyable",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -190,7 +186,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "You have a great understanding of the client's needs and always ensure that the final product exceeds their expectations.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -198,7 +194,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "I appreciate how you approach challenges with creative solutions, often finding more efficient ways to tackle complex problems.",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",

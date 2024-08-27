@@ -22,8 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
             <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nalin &nbsp; <span className='sm:block hidden'>| PRIME DEV</span>
-            </p>
+            <p className='text-white text-[18px] font-bold cursor-pointer flex'>PRIME DEV &nbsp; <span className='sm:block hidden'>| PORTFOLIO</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
