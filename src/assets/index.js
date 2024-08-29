@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import epic from "./company/epic.png";
+import unity from "./company/unity.png";
 
 import carrent from "./carrent.png";
 import gamestore from "./gamestore.png";
@@ -62,6 +63,7 @@ export {
   shopify,
   starbucks,
   epic,
+  unity,
   carrent,
   gamestore,
   gemini,

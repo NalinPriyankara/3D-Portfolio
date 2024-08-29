@@ -18,6 +18,7 @@ import {
     meta,
     starbucks,
     epic,
+    unity,
     shopify,
     carrent,
     gamestore,
@@ -115,8 +116,8 @@ import {
       icon: figma,
     },
     {
-      name: "epic",
-      icon: epic,
+      name: "unity",
+      icon: unity,
     }
   ];
   
